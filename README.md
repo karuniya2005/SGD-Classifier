@@ -60,7 +60,8 @@ classification
 
 ![image](https://github.com/user-attachments/assets/0beabf36-30c4-4d8a-b76d-c6b56fec7579)
 
-![image](https://github.com/user-attachments/assets/1f0014c0-2362-4405-9902-138f793a42cd)
+![b4d86ca2-f042-4966-b57c-3f833d28f16b](https://github.com/user-attachments/assets/67aa98d1-830a-4ccc-a479-9ac4e1ee43d2)
+
 
 ## Result:
 Thus, the program to implement the prediction of the Iris species using SGD Classifier is written and verified using Python programming.
