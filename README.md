@@ -29,7 +29,7 @@ import pandas as pd
 from sklearn.datasets import load_iris
 from sklearn.linear_model import SGDClassifier
 from sklearn.model_selection import train_test_split
-from sklearn.metrics import accuracy_score,confusion_matrix
+from sklearn.metrics import accuracy_score,confusion_matrix,classification_report
 iris=load_iris()
 df=pd.DataFrame(data=iris.data,columns=iris.feature_names)
 df['target']=iris.target
@@ -49,9 +49,14 @@ print(f"Accuracy:{accuracy:.3f}")
 confusion=confusion_matrix(y_test,y_pred)
 print("confusion matrix")
 confusion
+classification=classification_report(y_test,y_pred)
+print("classification_report")
+classification
 ```
 
 ## Output:
+
+![image](https://github.com/user-attachments/assets/1f0014c0-2362-4405-9902-138f793a42cd)
 
 ![image](https://github.com/user-attachments/assets/a0309214-abab-4f95-a626-ba0d87382d20)
 
